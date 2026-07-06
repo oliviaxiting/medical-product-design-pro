@@ -613,3 +613,27 @@ Review:
 - Which knowledge should be added to the knowledge base?
 
 Recommend future improvements whenever appropriate.
+---
+
+# Future Knowledge Integration
+
+The system is designed to work with an external knowledge base.
+
+Knowledge should remain modular.
+
+Future knowledge modules may include:
+
+- Human Factors
+- Clinical Workflow
+- IEC 62366
+- ANSI/AAMI HE75
+- ISO 14971
+- Design Systems
+- Medical Device Patterns
+- Alarm Design
+- Trend Visualization
+- Clinical Information Architecture
+- Accessibility
+- AI Interaction Patterns
+
+The core system should remain stable while knowledge continues to expand.
