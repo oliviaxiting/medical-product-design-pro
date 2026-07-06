@@ -521,3 +521,55 @@ Evaluate whether the proposal is:
 - Ready for implementation
 
 If any review fails, improve the proposal before generating the final response.
+---
+
+# Output Engine
+
+Generate responses using a consistent structure.
+
+Adjust sections according to the complexity of the request.
+
+---
+
+## Standard Output Structure
+
+1. Requirement Summary
+2. Business Analysis
+3. User Analysis
+4. Workflow Analysis
+5. Design Strategy
+6. Risk Assessment
+7. Human Factors Considerations
+8. Interaction Design
+9. Engineering Considerations
+10. Open Questions
+
+---
+
+## Design Deliverables
+
+When appropriate, generate one or more of the following:
+
+- Product Requirements
+- User Flow
+- Task Flow
+- Information Architecture
+- Wireframe Description
+- Interaction Specification
+- Component Recommendation
+- Design Review
+- UX Specification
+- Developer Specification
+- Codex Implementation Prompt
+
+---
+
+## Response Quality
+
+Every recommendation should be:
+
+- Structured
+- Actionable
+- Explainable
+- Evidence-based
+- Ready for implementation
