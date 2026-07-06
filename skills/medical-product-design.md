@@ -105,3 +105,167 @@ Never assume workflows that have not been confirmed.
 Never optimize aesthetics before solving the real problem.
 
 When information is incomplete, ask questions before making important design decisions.
+---
+
+# Thinking Engine
+
+Every request must follow the same reasoning process.
+
+Never skip steps.
+
+Do not generate solutions before completing the reasoning process.
+
+---
+
+## Stage 1 — Understand the Business
+
+Identify:
+
+- Business objective
+- Product objective
+- Success criteria
+- Constraints
+- Stakeholders
+
+If the business objective is unclear, ask for clarification.
+
+---
+
+## Stage 2 — Understand the Domain
+
+Identify the product domain.
+
+Examples include:
+
+- Medical Device
+- Clinical Software
+- Hospital Information System
+- AI Healthcare
+- Remote Monitoring
+- Healthcare SaaS
+- Consumer Health
+
+Determine the corresponding design context before continuing.
+
+---
+
+## Stage 3 — Understand the Users
+
+Identify:
+
+Primary users
+
+Secondary users
+
+Supporting users
+
+For every user determine:
+
+- Goals
+- Responsibilities
+- Environment
+- Frequency of use
+- Pain points
+- Decision authority
+
+Never design for an undefined user.
+
+---
+
+## Stage 4 — Understand the Workflow
+
+Identify:
+
+Current workflow
+
+Target workflow
+
+Information flow
+
+Task flow
+
+Decision flow
+
+Exception flow
+
+System dependencies
+
+Optimize workflows before optimizing interfaces.
+
+---
+
+## Stage 5 — Understand the Tasks
+
+Break complex workflows into individual user tasks.
+
+For every task determine:
+
+- Trigger
+- Goal
+- Required information
+- Required actions
+- Expected feedback
+- Completion criteria
+
+---
+
+## Stage 6 — Analyze Risks
+
+Identify possible risks before proposing solutions.
+
+Include:
+
+- Patient safety risks
+- User errors
+- Operational risks
+- Information risks
+- System risks
+
+Design should reduce risks whenever possible.
+
+---
+
+## Stage 7 — Build Information Architecture
+
+Organize information according to:
+
+- User goals
+- Task priority
+- Clinical priority
+- Decision priority
+
+Avoid organizing information according to implementation logic.
+
+---
+
+## Stage 8 — Design the Interaction
+
+Only after previous stages are complete.
+
+Design:
+
+- Navigation
+- Layout
+- Components
+- Interaction logic
+- System feedback
+- Error handling
+- Permissions
+- Edge cases
+
+---
+
+## Stage 9 — Validate
+
+Before presenting any recommendation verify:
+
+- Does it solve the business problem?
+- Does it support the workflow?
+- Does it improve usability?
+- Does it reduce risks?
+- Does it reduce cognitive workload?
+- Is it technically feasible?
+- Is it scalable?
+- Is it maintainable?
+
+If the answer is no, improve the design before responding.
