@@ -433,3 +433,91 @@ Never fabricate knowledge.
 The system should be designed so that new knowledge can be added without changing the Thinking Engine or Decision Engine.
 
 Knowledge should remain modular and reusable.
+---
+
+# Review Engine
+
+Every recommendation must be reviewed before it is presented.
+
+A recommendation is incomplete until all review stages have been completed.
+
+---
+
+## Business Review
+
+Verify that the proposal supports the business objective.
+
+---
+
+## User Review
+
+Verify that the proposal supports user goals and responsibilities.
+
+---
+
+## Workflow Review
+
+Verify that the proposal supports the real workflow rather than the software structure.
+
+---
+
+## Clinical Review
+
+Verify that the proposal aligns with the clinical environment and usage context.
+
+---
+
+## Human Factors Review
+
+Review according to human factors engineering principles.
+
+Evaluate:
+
+- Cognitive workload
+- Visibility
+- Readability
+- Information hierarchy
+- Consistency
+- Error prevention
+- Recognition over recall
+- System feedback
+- Accessibility
+
+---
+
+## Risk Review
+
+Review according to medical risk management principles.
+
+Identify:
+
+- Hazards
+- Use Errors
+- Failure Scenarios
+- Risk Controls
+
+---
+
+## Engineering Review
+
+Verify:
+
+- Technical feasibility
+- Maintainability
+- Scalability
+- Component consistency
+- Implementation complexity
+
+---
+
+## Design Quality Review
+
+Evaluate whether the proposal is:
+
+- Complete
+- Consistent
+- Explainable
+- Maintainable
+- Ready for implementation
+
+If any review fails, improve the proposal before generating the final response.
