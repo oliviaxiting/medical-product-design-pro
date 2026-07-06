@@ -1,24 +1,22 @@
-# Typography-review
+# Typography Review
 
-## Principle
+## Purpose
 
-Typography should maximize readability, reduce cognitive workload, and support rapid clinical decision-making.
+This document defines typography review rules based on ANSI/AAMI HE75 and related human factors guidance.
 
-Text should communicate information clearly under normal and stressful clinical conditions.
+The objective is to improve readability, reduce cognitive workload, and support safe clinical decision-making.
+
+This document is intended for design review rather than visual style definition.
 
 ---
 
-## Why
+## Human Factors Principle
 
-Medical professionals frequently read information while:
+Typography should enable users to identify, read, and understand information quickly under both normal and stressful clinical conditions.
 
-- Monitoring multiple patients.
-- Working under time pressure.
-- Standing or moving.
-- Wearing PPE.
-- Working in bright or dim lighting.
+Visual appearance should never reduce readability.
 
-Poor typography increases reading time, interpretation errors, and visual fatigue.
+Information hierarchy should always be immediately recognizable.
 
 ---
 
@@ -26,55 +24,46 @@ Poor typography increases reading time, interpretation errors, and visual fatigu
 
 ### Body Text
 
-Recommended:
+Recommended: 14–16 pt
 
-- 14–16 pt
-
-Avoid:
-
-- Smaller than 12 pt for continuous reading.
+Avoid using body text smaller than 12 pt for continuous reading.
 
 ---
 
-### Titles
+### Section Titles
 
-Recommended:
+Recommended: 18–24 pt
 
-- 18–24 pt
-
-Titles should clearly separate sections and improve scanning.
+Titles should clearly separate information groups and improve page scanning.
 
 ---
 
 ### Critical Values
 
-Recommended:
-
-- 20–32 pt
+Recommended: 20–32 pt
 
 Examples:
 
 - Heart Rate
-- SpO₂
 - Blood Pressure
+- SpO₂
+- Temperature
 - Alarm Values
 
-Critical values should be immediately recognizable.
+Critical values should always be more visually prominent than surrounding information.
 
 ---
 
 ### Secondary Information
 
-Recommended:
-
-- 12–14 pt
+Recommended: 12–14 pt
 
 Examples:
 
-- Timestamp
-- Unit
+- Units
+- Time
 - Metadata
-- Secondary labels
+- Additional descriptions
 
 ---
 
@@ -94,19 +83,25 @@ Recommended:
 
 1.3–1.6×
 
-Maintain sufficient white space.
+Maintain sufficient white space to improve readability.
+
+---
+
+### Font Weight
+
+Use font weight to indicate hierarchy.
+
+Avoid excessive use of bold text.
+
+Avoid decorative fonts.
 
 ---
 
 ### Contrast
 
-Maintain high contrast between text and background.
+Maintain sufficient contrast between foreground and background.
 
-Avoid:
-
-- Light gray text
-- Low contrast colors
-- Decorative typography
+Never rely on low-contrast text for important information.
 
 ---
 
@@ -117,74 +112,72 @@ Console interfaces support prolonged monitoring.
 Recommendations:
 
 - Body text: 14–16 pt
-- Section titles: 18–22 pt
+- Titles: 18–22 pt
 - Critical values: 24–32 pt
-- High information density is acceptable if readability is maintained.
+- Dense layouts are acceptable only if readability is maintained.
 
 ---
 
 ## PAD Application
 
-PAD interfaces are viewed closer to the user.
+PAD interfaces are viewed at closer distances and operated by touch.
 
 Recommendations:
 
 - Body text: 15–18 pt
-- Section titles: 20–24 pt
+- Titles: 20–24 pt
 - Critical values: 24–36 pt
-- Increase spacing between touch-related labels.
+- Increase spacing around touch-related labels.
 
 ---
 
 ## Common Risks
 
-- Font size too small.
-- Too many font sizes.
-- Poor hierarchy.
+- Text too small.
+- Inconsistent typography hierarchy.
 - Low contrast.
 - Long paragraphs.
-- Dense tables.
+- Excessive bold text.
 - Decorative fonts.
+- Important values not visually distinguished.
 
 ---
 
 ## Design Review Checklist
 
-Before approval verify:
+Before approving the design, verify:
 
-□ Body text ≥14 pt
+□ Body text is at least 14 pt.
 
-□ Critical values larger than body text
+□ Critical values are visually emphasized.
 
-□ Typography hierarchy is consistent
+□ Typography hierarchy is consistent.
 
-□ Contrast is sufficient
+□ Line spacing supports readability.
 
-□ Long paragraphs are avoided
+□ Contrast is sufficient.
 
-□ Important information is scannable
+□ Decorative fonts are not used.
 
-□ Console supports long-term reading
+□ Console supports long-duration reading.
 
-□ PAD supports bedside readability
+□ PAD supports bedside readability.
 
 ---
 
-## AI Rules
+## AI Review Rules
 
-Always prioritize readability over aesthetics.
+When reviewing typography, always evaluate:
 
-Always establish clear visual hierarchy.
+- Readability
+- Information hierarchy
+- Reading distance
+- Clinical environment
+- Continuous monitoring requirements
 
-Never use decorative fonts.
+Never recommend reducing font size solely to fit more information.
 
-Never reduce font size to fit more information.
-
-Increase typography prominence for safety-critical information.
-
-Recommend larger text when users monitor continuously.
-
-Recommend larger spacing for PAD interfaces.
+Prioritize patient safety and reading efficiency over visual aesthetics.
 
 ---
 
@@ -192,6 +185,6 @@ Recommend larger spacing for PAD interfaces.
 
 ANSI/AAMI HE75
 
-IEC 62366-1
-
 ISO 9241
+
+IEC 62366-1
