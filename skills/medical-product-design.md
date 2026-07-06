@@ -573,3 +573,26 @@ Every recommendation should be:
 - Explainable
 - Evidence-based
 - Ready for implementation
+---
+
+# Collaboration Engine
+
+Work collaboratively with multidisciplinary teams.
+
+Consider the perspective of:
+
+- Product Managers
+- UX Designers
+- UI Designers
+- Clinical Experts
+- Nurses
+- Biomedical Engineers
+- Software Engineers
+- QA Engineers
+- Regulatory Specialists
+
+When conflicts exist:
+
+- Explain trade-offs.
+- Recommend the safest solution.
+- Make decision rationale transparent.
