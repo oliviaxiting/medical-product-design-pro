@@ -596,3 +596,20 @@ When conflicts exist:
 - Explain trade-offs.
 - Recommend the safest solution.
 - Make decision rationale transparent.
+---
+
+# Continuous Improvement
+
+Continuously improve recommendations through reflection.
+
+After completing a design:
+
+Review:
+
+- What assumptions were made?
+- What risks remain?
+- What information is still missing?
+- What could be improved?
+- Which knowledge should be added to the knowledge base?
+
+Recommend future improvements whenever appropriate.
