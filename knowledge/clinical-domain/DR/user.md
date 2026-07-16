@@ -1,45 +1,152 @@
 # DR User Profile
 
 
-## Radiographer
+## 1. User Groups
 
 
-Role:
+A DR system involves multiple user groups.
 
-Operate DR system and complete imaging examination.
+Different users have different:
 
-
-## Goals
-
-- Complete examination efficiently
-- Obtain diagnostic-quality images
-- Ensure patient safety
-
-
-## Challenges
-
-- Multiple patients
-- Emergency situations
-- Elderly patients
-- Limited mobility patients
-- Time pressure
+- Goals
+- Responsibilities
+- Usage frequency
+- Information requirements
+- Access permissions
 
 
-## Cognitive Characteristics
+User groups include:
 
 
-The user needs:
+## Primary User
 
-- Clear status feedback
-- Predictable operation
-- Low memory demand
-- Fast error recovery
+Radiographer / Radiologic Technologist
 
 
-## Design Implication
+## Secondary User
 
-Important information should be:
+Clinical Specialist / Training Staff
 
-- Visible
-- Understandable
-- Actionable
+
+## Technical User
+
+Service Engineer
+
+
+---
+
+# 2. Primary User: Radiographer
+
+
+## User Responsibilities
+
+
+Radiographers are responsible for completing the complete DR examination workflow.
+
+
+Responsibilities include:
+
+- Examination task confirmation
+- Patient identification
+- Examination part selection
+- Protocol selection
+- Patient positioning
+- Exposure parameter confirmation
+- Image quality evaluation
+- Data transmission
+
+
+---
+
+# 3. Radiographer Goals
+
+
+## 3.1 Patient Safety
+
+
+Ensure:
+
+- Correct patient
+- Correct examination
+- Correct operation
+
+
+---
+
+## 3.2 Image Quality
+
+
+Acquire images with:
+
+- Correct anatomical coverage
+- Appropriate imaging conditions
+- Diagnostic-quality results
+
+
+---
+
+## 3.3 Workflow Efficiency
+
+
+Reduce:
+
+- Unnecessary operations
+- Repeat exposure
+- Waiting time
+
+
+Efficiency improvement should not remove necessary safety confirmation.
+
+
+---
+
+# 4. Radiographer Characteristics
+
+
+## 4.1 Professional Decision Maker
+
+
+Radiographers are not simple equipment operators.
+
+
+Their work includes:
+
+- Clinical judgement
+- Patient condition evaluation
+- Image quality judgement
+- Exposure condition evaluation
+
+
+Design principle:
+
+The system should enhance professional judgement rather than replace it.
+
+
+---
+
+## 4.2 High-frequency and Repetitive Tasks
+
+
+DR examinations usually contain:
+
+- Standardized workflows
+- Repeated operations
+
+
+Design should support:
+
+- Fast routine operation
+- Reduced unnecessary interaction
+
+
+However:
+
+Critical safety information should not be hidden for efficiency.
+
+
+---
+
+## 4.3 User Experience Differences
+
+
+DR systems are
